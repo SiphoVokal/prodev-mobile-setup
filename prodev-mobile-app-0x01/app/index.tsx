@@ -30,11 +30,7 @@ const styles = StyleSheet.create({
 
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      style={styles.container}
     >
       <Text>Entry Screen - Awesome</Text>
 
