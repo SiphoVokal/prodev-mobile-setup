@@ -48,3 +48,50 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Steps followed for scaffolding
+
+Navigate to Project Directory
+
+Open your terminal and move to your parent project directory:
+
+cd prodev-mobile-setup
+
+Set Up Project
+
+Initialize a new Expo project using the latest Expo Router template:
+
+npx create-expo-app@latest .
+
+Modify the Home Screen
+
+Open app/(tabs)/index.tsx.
+Locate the default text Welcome!.
+Change it to ** First App Created**.
+Run and Test Your Application
+
+Start the Expo development server with:
+
+npx expo start
+
+For iOS Devices: Scan the QR code in the terminal using your phone’s Camera app.
+For Android Devices: Scan the QR code using the Expo Go app.
+Reset the Application
+
+Run the reset command and observe its effects:
+
+npm run reset-project
+
+### Obervation
+
+npm run reset-project
+
+> prodev-mobile-app-0x00@1.0.0 reset-project
+> node ./scripts/reset-project.js
+
+Do you want to move existing files to /app-example instead of deleting them? (Y/n): y
+📁 /app-example directory created.
+❌ Error during script execution: EPERM: operation not permitted, rename 'C:\Users\Sipho\Downloads\prodev-mobile-setup\prodev-mobile-app-0x00\app' -> 'C:\Users\Sipho\Downloads\prodev-mobile-setup\prodev-mobile-app-0x00\app-example\app'
+PS C:\Users\Sipho\Downloads\prodev-mobile-setup\prodev-mobile-app-0x00> 
+
+reset-project throws an error if the directory is not renamed?
